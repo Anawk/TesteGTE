@@ -291,6 +291,15 @@ public class HelloApplication extends Application {
         }
     }
 
+    public static void mudaeTela23(String tela) {
+        if (tela == "adicionar") {
+            stagePrincipal.setScene(adicionarScene);
+        }
+        if (tela == "lista") {
+            stagePrincipal.setScene(listaScene);
+        }
+    }
+
 
     public static void main(String[] args) {
         launch();
